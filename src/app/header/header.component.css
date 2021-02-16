@@ -1,0 +1,19 @@
+ul{
+    list-style: none;
+    padding: 10px;
+}
+li{
+    font-size: medium;
+    padding: 10px;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+.nav-item.active {
+    background: #c2c2c2;
+    border: none !important;
+    border-radius: 5px;
+}
+

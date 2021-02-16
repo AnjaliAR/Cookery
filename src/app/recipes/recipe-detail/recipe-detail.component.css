@@ -1,0 +1,12 @@
+select {
+    border:0;
+    background:lightgreen;
+    height:32px;
+    border:1px solid #d8d8d8;
+    width:300px;
+    cursor: pointer;
+
+}
+option{
+    background: white;
+}

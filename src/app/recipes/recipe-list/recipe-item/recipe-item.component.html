@@ -1,0 +1,16 @@
+<a 
+[routerLink]="[index]"
+class="list-group-item clearfix"> 
+<div class="pull-left">
+    <h4 class="list-group-item-heading"> {{ recipe.name }} </h4>
+    <p class="list-group-item-next"> {{ recipe.description }} </p>
+</div>
+<span class="pull-right"> 
+    <img 
+    [src]="recipe.image" 
+    alt="{{ recipe.name }}" 
+    class="img-responsive" 
+    style="max-height: 50px; border-radius: 100%;"
+    >
+</span>
+</a>
