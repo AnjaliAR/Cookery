@@ -13,7 +13,7 @@ export class DatabaseService {
     this.http.put("https://recipebook-c4112.firebaseio.com/recipe.json", this.recipeService.getRecipe()).subscribe(res => {
       let recipes = res;
       console.log(recipes);
-      return recipes
+      return recipes;
     })
   }
 }

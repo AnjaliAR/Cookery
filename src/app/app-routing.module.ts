@@ -10,6 +10,7 @@ import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
 import { HomeComponent } from './home-component/home.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
+import { AuthComponent } from './auth/auth-component';
 
 @NgModule({
   imports: [RouterModule.forRoot([
@@ -21,7 +22,8 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
       {path:':id',component:RecipeDetailComponent},
        {path: ':id/edit',component:RecipeEditComponent}
     ]},
-    {path:'shopping',component:ShoppingComponent}
+    {path:'shopping',component:ShoppingComponent},
+    {path:'login', component:AuthComponent}
     
   ])],
   exports: [RouterModule]
